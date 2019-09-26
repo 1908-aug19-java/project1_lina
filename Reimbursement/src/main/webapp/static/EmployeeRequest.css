@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+#welcome{
+    font-size: 35px;
+    font-family: fontawesome;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-align: left;
+    font-weight: bold;
+}
+#left-box{
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+}
+#request-form{
+    float: left;
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+
+}

@@ -1,0 +1,38 @@
+#header{
+    font-family: fontawesome;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;   
+}
+
+#login{
+    float: left;
+    width: 400px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+}
+#middle-box{
+    float:left;
+    width:200px;
+    padding:none;
+    margin: 20px;
+}
+
+#register{
+    float: left;
+    width: 500px;
+    border:none;
+    padding: 10px;
+    margin:10px;
+}
+#register-btn{
+    background-color:rgb(126, 186, 214));
+}
+
+/* #register-form{
+
+    visibility: hidden;
+} */

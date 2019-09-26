@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Reimbursement Homepage</title>
+<link rtel = "tab icon" href= "./my_website_tab_icon.ico">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href= "static/HomePage.css">
+</head>
+<body>     
+     <h1 id="header">Welcome Apple Reimbursment!</h1>
+     <hr color="blue">
+     <div id="container">
+          <div id = "login">
+               <!-- <form > -->
+                    <div class="form-group">
+                         <label for="login-name">Username</label>
+                         <input type="text" class="form-control" id="login-name" placeholder="Enter username">
+                    </div>
+                    <div class="form-group">
+                         <label for="login-password">Password</label>
+                         <input type="password" class="form-control" id="login-password" placeholder="Enter Password">
+                    </div>        
+                    <button id="login-btn" class="btn btn-primary">Login</button>
+               <!-- </form> -->
+          </div>
+          <div id="middle-box">
+          </div>
+          
+          <div id = "register">
+               <h4>Not user yet? <span><button id ="register-btn">Register Here!</button></span> </h4> 
+               <!-- <label for = "register-btn">Not user yet?</label> -->
+               
+               
+               <form id="register-form">
+                    <div class="form-group">
+                         <label for="reg-name">Username</label>
+                         <input type="text" class="form-control" id="reg-name" placeholder="Enter username">
+                    </div>
+                    <div class="form-group">
+                         <label for="reg-password">Password</label>
+                         <input type="password" class="form-control" id="reg-password" placeholder="Enter Password">
+                    </div>
+                    <div class="form-group">
+                         <label for="reg-title">Title</label>
+                         <input type="text" class="form-control" id="reg-title" >
+                    </div>
+                    <div class="form-group">
+                              <label for="reg-manager">Report To</label>
+                              <input type="text" class="form-control" id="reg-manager" >
+                         </div>  
+                    <div class="form-group">
+                         <label for="reg-dept">Department</label>
+                         <input type="text" class="form-control" id="reg-dept" >
+                    </div>     
+                    <button type="submit" id="reg-btn" class="btn btn-primary">Submit</button>
+               </form>
+          </div>
+     </div>
+
+     <script src = "static/LoginScript.js"></script>
+</body>
+
+
+</html>
