@@ -1,0 +1,46 @@
+#welcome{
+    font-size: 35px;
+    font-family: fontawesome;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#left-box{
+    float:left;
+    width: 200px;
+    padding:none;
+    margin: 20px;
+}
+
+/* #request-form{
+    visibility: hidden;
+    float:left;
+    width: 400px;
+    padding:10px;
+    margin: 20px;
+}
+#pending-table{
+    display:none;
+    float: left;
+    width: 400px;
+    padding:10px;
+    margin:20px;
+}
+
+#resolved-table{
+    display:none;
+    float:left;
+    width:600px;
+    padding:10px;
+    margin:20px;
+}
+
+#profile{
+    display: none;
+    float: left;
+    width: 500px;
+    padding: 10px;
+    margin:20px;
+} */
