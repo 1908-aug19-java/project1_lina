@@ -12,12 +12,12 @@
   
   <servlet>
     <description></description>
-    <display-name>FrontController</display-name>
-    <servlet-name>FrontController</servlet-name>
-    <servlet-class>com.revature.controllers.FrontController</servlet-class>
+    <display-name>HelloController</display-name>
+    <servlet-name>HelloController</servlet-name>
+    <servlet-class>com.revature.controller.HelloController</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>FrontController</servlet-name>
+    <servlet-name>HelloController</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 </web-app>
